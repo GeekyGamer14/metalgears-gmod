@@ -117,7 +117,7 @@ function SWEP:ThrowChair( model_file )
 	-- Assuming we're playing in Sandbox mode we want to add this
 	-- entity to the cleanup and undo lists. This is done like so.
 	--
-	cleanup.Add( self.Owner, "JoJ", ent )
+	cleanup.Add( self.Owner, "Metal Gear", ent )
  
 	undo.Create( "Metal Gear" )
 		undo.AddEntity( ent )
